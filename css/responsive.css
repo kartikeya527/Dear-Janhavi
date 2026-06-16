@@ -1,0 +1,1144 @@
+/* ==========================
+   LARGE TABLETS
+========================== */
+
+@media (max-width:1200px){
+
+    .hero-content h1{
+        font-size:5rem;
+    }
+
+    .hero-content h2{
+        font-size:3.5rem;
+    }
+
+    #finale h1{
+        font-size:5rem;
+    }
+
+}
+
+/* ==========================
+   TABLETS
+========================== */
+
+@media (max-width:992px){
+
+    .navbar{
+        padding:20px 30px;
+    }
+
+    .navbar ul{
+        gap:20px;
+    }
+
+    .section-title h2{
+        font-size:3rem;
+    }
+
+    .hero-content h1{
+        font-size:4rem;
+    }
+
+    .hero-content h2{
+        font-size:3rem;
+    }
+
+    .timeline::before{
+        left:25px;
+    }
+
+    .timeline-content{
+        width:calc(100% - 70px);
+        margin-left:60px;
+    }
+
+    .timeline-item:nth-child(even){
+        justify-content:flex-start;
+    }
+
+    #birthday h2{
+        font-size:3rem;
+    }
+
+    #birthday h3{
+        font-size:2rem;
+    }
+
+    #finale h1{
+        font-size:4rem;
+    }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width:768px){
+
+    section{
+        padding:90px 25px;
+    }
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .navbar ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .logo{
+        font-size:1.6rem;
+    }
+
+    .hero-content h1{
+        font-size:3rem;
+    }
+
+    .hero-content h2{
+        font-size:2.3rem;
+    }
+
+    .intro-line{
+        font-size:.85rem;
+        letter-spacing:2px;
+    }
+
+    .subtitle{
+        font-size:1rem;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .hero-buttons button{
+        width:250px;
+    }
+
+    .section-title h2{
+        font-size:2.4rem;
+    }
+
+    .timeline-content{
+        width:100%;
+        margin-left:0;
+    }
+
+    .timeline::before{
+        display:none;
+    }
+
+    #galleryImage{
+        width:100%;
+    }
+
+    #reasonBox{
+        padding:25px;
+    }
+
+    #letterContent{
+        padding:25px;
+    }
+
+    #birthday h2{
+        font-size:2.2rem;
+    }
+
+    #birthday h3{
+        font-size:1.6rem;
+    }
+
+    #finale h1{
+        font-size:2.8rem;
+    }
+
+    #finale h2{
+        font-size:1.3rem;
+    }
+
+}
+
+/* ==========================
+   SMALL PHONES
+========================== */
+
+@media (max-width:480px){
+
+    .hero-content h1{
+        font-size:2.3rem;
+    }
+
+    .hero-content h2{
+        font-size:1.9rem;
+    }
+
+    .section-title h2{
+        font-size:2rem;
+    }
+
+    .hero-buttons button{
+        width:100%;
+    }
+
+    .gallery-controls button{
+        width:100%;
+        margin:8px 0;
+    }
+
+    #birthday h2{
+        font-size:1.8rem;
+    }
+
+    #birthday h3{
+        font-size:1.4rem;
+    }
+
+    #finale h1{
+        font-size:2.2rem;
+    }
+
+}
+
+/* =====================================================
+        PREMIUM MOBILE OPTIMIZATION
+===================================================== */
+
+@media (max-width:768px){
+
+/* =====================================================
+                        HERO
+===================================================== */
+
+#hero{
+
+    min-height:100vh;
+
+    padding:120px 25px 80px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+.hero-content{
+
+    width:100%;
+
+    max-width:650px;
+
+    padding:0;
+
+}
+
+.hero-content h1{
+
+    font-size:3.3rem;
+
+    line-height:1.05;
+
+}
+
+.hero-content h2{
+
+    font-size:2.2rem;
+
+}
+
+.hero-quote{
+
+    font-size:1.45rem;
+
+    line-height:1.8;
+
+    margin:18px 0;
+
+}
+
+.hero-story{
+
+    font-size:1.35rem;
+
+    line-height:1.8;
+
+    margin:10px 0;
+
+}
+
+.signature-name{
+
+    font-size:2.3rem;
+
+}
+
+.hero-buttons{
+
+    margin-top:55px;
+
+}
+
+.hero-buttons button{
+
+    width:100%;
+
+    max-width:330px;
+
+    height:58px;
+
+    font-size:1rem;
+
+    border-radius:50px;
+
+}
+
+/* =====================================================
+                    BIRTHDAY
+===================================================== */
+
+#birthday{
+
+    padding:90px 25px;
+
+}
+
+.birthday-content{
+
+    width:100%;
+
+    max-width:650px;
+
+    margin:auto;
+
+}
+
+.birthday-date{
+
+    font-size:1rem;
+
+    letter-spacing:5px;
+
+    margin-bottom:18px;
+
+}
+
+.birthday-title{
+
+    font-size:3.2rem;
+
+    line-height:1.1;
+
+    margin-bottom:25px;
+
+}
+
+.birthday-name{
+
+    display:block;
+
+    font-size:4.2rem;
+
+    line-height:1;
+
+    margin-top:12px;
+
+}
+
+.birthday-divider{
+
+    width:140px;
+
+    margin:30px auto;
+
+}
+
+#birthday h2{
+
+    font-size:1.55rem;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+    padding:0 8px;
+
+}
+
+#birthday p{
+
+    font-size:1.28rem;
+
+    line-height:2;
+
+    max-width:95%;
+
+    margin:auto;
+
+}
+
+/* =====================================================
+                    JOURNEY
+===================================================== */
+
+#journey{
+
+    padding:90px 25px;
+
+}
+
+.timeline{
+
+    margin-top:60px;
+
+}
+
+.timeline::before{
+
+    display:none;
+
+}
+
+.timeline-item{
+
+    width:100%;
+
+    justify-content:center !important;
+
+    margin-bottom:35px;
+
+}
+
+.timeline-content{
+
+    width:100%;
+
+    max-width:650px;
+
+    margin:0;
+
+    padding:30px;
+
+    border-radius:24px;
+
+}
+
+.timeline-content h3{
+
+    font-size:1.8rem;
+
+}
+
+.timeline-content p{
+
+    font-size:1.15rem;
+
+    line-height:1.9;
+
+}
+
+.chapter{
+
+    font-size:.9rem;
+
+    letter-spacing:4px;
+
+}
+
+/* =====================================================
+      KEEP THIS OPEN
+      DO NOT ADD THE FINAL }
+===================================================== */
+
+/* Gallery comes next... */
+
+/* =====================================================
+                    GALLERY
+===================================================== */
+
+#memories{
+
+    padding:90px 25px;
+
+}
+
+.gallery-container{
+
+    width:100%;
+
+    max-width:650px;
+
+    margin:auto;
+
+}
+
+#galleryImage{
+
+    width:100%;
+
+    height:380px;
+
+    object-fit:cover;
+
+    border-radius:22px;
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.35);
+
+}
+
+.gallery-controls{
+
+    margin-top:35px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.gallery-controls button{
+
+    width:100%;
+
+    max-width:320px;
+
+    height:56px;
+
+    border-radius:50px;
+
+    font-size:1rem;
+
+}
+
+#photoCounter{
+
+    margin-top:25px;
+
+    font-size:1rem;
+
+    letter-spacing:2px;
+
+}
+
+/* =====================================================
+                MEMORY VAULT
+===================================================== */
+
+#memoryVault{
+
+    padding:90px 25px;
+
+}
+
+.vault-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:18px;
+
+    margin:45px auto 60px;
+
+    width:100%;
+
+}
+
+.vault-btn{
+
+    width:100%;
+
+    padding:18px 22px;
+
+    font-size:1rem;
+
+    line-height:1.5;
+
+    border-radius:18px;
+
+}
+
+#memoryDisplay{
+
+    width:100%;
+
+    max-width:650px;
+
+    min-height:260px;
+
+    margin:auto;
+
+    padding:35px 28px;
+
+    border-radius:24px;
+
+}
+
+#memoryDisplay h3{
+
+    font-size:1.8rem;
+
+}
+
+#memoryDisplay p{
+
+    font-size:1.18rem;
+
+    line-height:1.9;
+
+}
+
+.memory-image{
+
+    width:100%;
+
+    border-radius:18px;
+
+    margin-bottom:25px;
+
+}
+
+/* =====================================================
+                    CONSTELLATION
+===================================================== */
+
+#constellation{
+
+    padding:90px 25px;
+
+}
+
+#constellationContainer{
+
+    width:100%;
+
+    max-width:650px;
+
+    height:320px;
+
+    margin:50px auto;
+
+    overflow:hidden;
+
+}
+
+#constellationSvg{
+
+    width:100%;
+
+    height:100%;
+
+}
+
+.star-node{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+#constellationMessage{
+
+    font-size:1.15rem;
+
+    line-height:1.8;
+
+    padding:0 10px;
+
+}
+
+/* =====================================================
+                BEFORE CONTINUE
+===================================================== */
+
+#beforeReasons{
+
+    padding:90px 25px;
+
+}
+
+.before-reasons-card{
+
+    width:100%;
+
+    max-width:650px;
+
+    padding:35px 28px;
+
+    border-radius:24px;
+
+}
+
+.before-reasons-text{
+
+    font-size:1.4rem;
+
+    line-height:1.9;
+
+}
+
+#continueToReasons{
+
+    width:100%;
+
+    max-width:320px;
+
+    height:56px;
+
+    margin-top:35px;
+
+    font-size:1rem;
+
+}
+
+/* =====================================================
+                    LOVE VAULT
+===================================================== */
+
+#loveVault{
+
+    padding:90px 25px;
+
+}
+
+#loveReasonCard{
+
+    width:100%;
+
+    min-height:220px;
+
+    padding:35px 25px;
+
+    border-radius:22px;
+
+    font-size:1.25rem;
+
+    line-height:1.9;
+
+}
+
+#loveReasonButton{
+
+    width:100%;
+
+    max-width:330px;
+
+    height:56px;
+
+    margin-top:35px;
+
+}
+
+/* =====================================================
+                        LETTER
+===================================================== */
+
+#letter{
+
+    padding:90px 25px;
+
+}
+
+.envelope{
+
+    width:100%;
+
+    max-width:650px;
+
+    margin:auto;
+
+}
+
+#openLetter{
+
+    width:100%;
+
+    max-width:320px;
+
+    height:58px;
+
+    font-size:1rem;
+
+}
+
+#letterContent{
+
+    padding:35px 28px;
+
+    border-radius:24px;
+
+}
+
+#typedLetter{
+
+    font-size:1.18rem;
+
+    line-height:2;
+
+}
+
+/* =====================================================
+                    STAR LOVE
+===================================================== */
+
+#starLoveSection{
+
+    padding:90px 25px;
+
+}
+
+.star-intro{
+
+    font-size:1.2rem;
+
+    line-height:1.8;
+
+}
+
+#starCanvas{
+
+    height:380px;
+
+}
+
+#loveLine{
+
+    font-size:2.4rem;
+
+}
+
+#nameLine{
+
+    font-size:3.4rem;
+
+}
+
+#starQuote{
+
+    font-size:1.15rem;
+
+    line-height:1.8;
+
+}
+
+/* =====================================================
+                    SURPRISE GIFT
+===================================================== */
+
+#surprise{
+
+    padding:90px 25px;
+
+}
+
+.gift-wrapper{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.gift-box{
+
+    transform:scale(.82);
+
+}
+
+.gift-text{
+
+    margin-top:35px;
+
+    font-size:1.15rem;
+
+    line-height:1.8;
+
+    padding:0 12px;
+
+}
+
+/* =====================================================
+                    GIFT OVERLAY
+===================================================== */
+
+#secretGiftOverlay{
+
+    padding:25px;
+
+    overflow-y:auto;
+
+    align-items:flex-start;
+
+}
+
+#giftContent{
+
+    width:100%;
+
+    max-width:100%;
+
+    margin:30px auto;
+
+    padding:40px 28px;
+
+    border-radius:24px;
+
+    max-height:none;
+
+}
+
+#giftContent h1{
+
+    font-size:2.5rem;
+
+    margin-bottom:40px;
+
+}
+
+#giftContent p{
+
+    font-size:1.2rem;
+
+    line-height:2;
+
+    text-indent:1.6rem;
+
+    margin-bottom:2rem;
+
+}
+
+.signature{
+
+    font-size:1.8rem;
+
+    text-align:right;
+
+    margin-top:45px;
+
+}
+
+#closeGift{
+
+    width:100%;
+
+    margin-top:35px;
+
+    padding:16px;
+
+    font-size:1rem;
+
+}
+
+/* =====================================================
+                        FINALE
+===================================================== */
+
+#finale{
+
+    padding:120px 25px;
+
+}
+
+#finale h1{
+
+    font-size:2.8rem;
+
+    line-height:1.2;
+
+}
+
+#finale h2{
+
+    font-size:1.35rem;
+
+    line-height:1.8;
+
+    max-width:95%;
+
+    margin:25px auto 0;
+
+}
+
+#fireworksCanvas{
+
+    width:100%;
+
+    height:260px;
+
+}
+
+/* =====================================================
+                    LIGHTBOX
+===================================================== */
+
+#lightbox{
+
+    padding:20px;
+
+}
+
+#lightboxImage{
+
+    width:100%;
+
+    max-width:100%;
+
+    max-height:75vh;
+
+    border-radius:20px;
+
+}
+
+#closeLightbox{
+
+    top:20px;
+
+    right:20px;
+
+    font-size:2rem;
+
+}
+
+/* =====================================================
+                GLOBAL MOBILE IMPROVEMENTS
+===================================================== */
+
+section{
+
+    padding-left:25px;
+
+    padding-right:25px;
+
+}
+
+.section-title h2{
+
+    font-size:2.6rem;
+
+    line-height:1.2;
+
+}
+
+.section-title p{
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+    max-width:95%;
+
+    margin:auto;
+
+}
+
+button{
+
+    min-height:52px;
+
+    touch-action:manipulation;
+
+}
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    overflow-x:hidden;
+
+    -webkit-text-size-adjust:100%;
+
+}
+
+}
+
+/* =====================================================
+            EXTRA SMALL PHONES
+        iPhone SE / 320px devices
+===================================================== */
+
+@media (max-width:380px){
+
+.hero-content h1{
+
+    font-size:2.8rem;
+
+}
+
+.hero-content h2{
+
+    font-size:1.8rem;
+
+}
+
+.birthday-title{
+
+    font-size:2.6rem;
+
+}
+
+.birthday-name{
+
+    font-size:3.5rem;
+
+}
+
+.section-title h2{
+
+    font-size:2.2rem;
+
+}
+
+.timeline-content{
+
+    padding:24px;
+
+}
+
+#giftContent{
+
+    padding:30px 22px;
+
+}
+
+#giftContent p{
+
+    font-size:1.05rem;
+
+}
+
+.signature{
+
+    font-size:1.6rem;
+
+}
+
+}

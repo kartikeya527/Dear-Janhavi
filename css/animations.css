@@ -1,0 +1,385 @@
+/* ==========================
+   GLOBAL ANIMATIONS
+========================== */
+
+@keyframes fadeIn {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+@keyframes fadeUp {
+    from{
+        opacity:0;
+        transform:translateY(60px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadeDown {
+    from{
+        opacity:0;
+        transform:translateY(-60px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from{
+        opacity:0;
+        transform:scale(.85);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+@keyframes pulseGlow {
+
+    0%{
+        box-shadow:0 0 0 rgba(232,180,160,0);
+    }
+
+    50%{
+        box-shadow:
+        0 0 30px rgba(232,180,160,.35),
+        0 0 60px rgba(232,180,160,.25);
+    }
+
+    100%{
+        box-shadow:0 0 0 rgba(232,180,160,0);
+    }
+}
+
+@keyframes floating {
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+}
+
+@keyframes shimmer {
+
+    0%{
+        background-position:-1000px 0;
+    }
+
+    100%{
+        background-position:1000px 0;
+    }
+}
+
+@keyframes slowRotate {
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes glowText {
+
+    0%{
+        text-shadow:
+        0 0 0 rgba(232,180,160,0);
+    }
+
+    50%{
+        text-shadow:
+        0 0 20px rgba(232,180,160,.6),
+        0 0 50px rgba(232,180,160,.3);
+    }
+
+    100%{
+        text-shadow:
+        0 0 0 rgba(232,180,160,0);
+    }
+}
+
+/* ==========================
+   LOADER
+========================== */
+
+.loader-content{
+    animation:fadeIn 2s ease;
+}
+
+.loader-content h1{
+    animation:
+    fadeDown 1.5s ease,
+    glowText 5s infinite;
+}
+
+.loader-content p{
+    animation:fadeUp 2s ease;
+}
+
+/* ==========================
+   HERO SECTION
+========================== */
+
+.hero-content{
+    animation:fadeIn 2s ease;
+}
+
+.intro-line{
+    animation:fadeDown 2s ease;
+}
+
+.hero-content h1{
+    animation:zoomIn 2.2s ease;
+}
+
+.hero-content h2{
+    animation:
+    fadeUp 2.5s ease,
+    glowText 6s infinite;
+}
+
+.subtitle{
+    animation:fadeUp 3s ease;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+button{
+    transition:
+    transform .4s ease,
+    box-shadow .4s ease,
+    background .4s ease;
+}
+
+button:hover{
+
+    transform:
+    translateY(-5px)
+    scale(1.03);
+
+    box-shadow:
+    0 15px 35px rgba(232,180,160,.35);
+}
+
+button:active{
+    transform:scale(.96);
+}
+
+/* ==========================
+   FLOATING BUTTON EFFECT
+========================== */
+
+.hero-buttons button{
+    animation:floating 4s ease-in-out infinite;
+}
+
+.hero-buttons button:nth-child(2){
+    animation-delay:1s;
+}
+
+/* ==========================
+   TIMELINE
+========================== */
+
+.timeline-content{
+
+    animation:
+    fadeUp 1s ease,
+    pulseGlow 7s infinite;
+
+    transition:
+    transform .5s ease,
+    background .5s ease;
+}
+
+.timeline-content:hover{
+
+    transform:
+    translateY(-10px)
+    scale(1.02);
+
+    background:
+    rgba(255,255,255,.12);
+}
+
+/* ==========================
+   GALLERY
+========================== */
+
+#galleryImage{
+
+    transition:
+    transform .7s ease,
+    filter .7s ease;
+}
+
+#galleryImage:hover{
+
+    transform:scale(1.02);
+
+    filter:
+    brightness(1.08)
+    saturate(1.1);
+}
+
+/* ==========================
+   REASONS BOX
+========================== */
+
+#reasonBox{
+
+    animation:
+    fadeUp 1.5s ease;
+
+    transition:
+    transform .5s ease,
+    box-shadow .5s ease;
+}
+
+#reasonBox:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+    0 20px 50px rgba(232,180,160,.2);
+}
+
+/* ==========================
+   LETTER
+========================== */
+
+.envelope{
+
+    animation:
+    fadeUp 1.5s ease;
+}
+
+#letterContent{
+
+    animation:
+    fadeIn 1.2s ease;
+}
+
+/* ==========================
+   SURPRISE SECTION
+========================== */
+
+#surpriseButton{
+
+    animation:
+    pulseGlow 4s infinite;
+}
+
+#surpriseMessage{
+
+    transition:
+    opacity 1s ease,
+    transform 1s ease;
+
+    transform:translateY(20px);
+}
+
+#surpriseMessage.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+}
+
+/* ==========================
+   FINALE
+========================== */
+
+#finale h1{
+
+    animation:
+    glowText 5s infinite;
+}
+
+#finale h2{
+
+    animation:
+    fadeUp 2s ease;
+}
+
+/* ==========================
+   STARS BACKGROUND
+========================== */
+
+#particles{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    pointer-events:none;
+
+    z-index:-1;
+
+    overflow:hidden;
+}
+
+.star{
+
+    position:absolute;
+
+    width:3px;
+    height:3px;
+
+    border-radius:50%;
+
+    background:white;
+
+    animation:
+    floating 6s infinite ease-in-out,
+    glowText 4s infinite;
+}
+
+/* ==========================
+   SCROLL REVEAL
+========================== */
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:
+    all 1s ease;
+}
+
+.reveal.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+}
