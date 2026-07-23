@@ -38,7 +38,7 @@ const memories = {
     3rd July 
     When we kissed for the first time. When My lips felt your lips.
 
-};
+  ` };
 
 const vaultButtons =
 document.querySelectorAll(".vault-btn");
