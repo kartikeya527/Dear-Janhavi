@@ -10,12 +10,9 @@ const memories = {
     `,
 
     2: `
-    The conversation I never wanted to end.
+    The Moment I never wanted to end.
 
-    Every conversation with you I never wanted to end
-    whether it's about our food and films discussions. Our 
-    confessions of love. Our Random I love you kisses. Our Random jokes
-    which made me laugh everytime.
+    Every Moment with you, those 3 days each and every second I never wanted to end. I just wanted to stop the Time.
     `,
 
     3: `
@@ -38,9 +35,9 @@ const memories = {
     5: `
     A memory I never want to forget.
 
-    10th June 11:55 pm
-    When we said I love you for the first time to each other .
-    `
+    3rd July 
+    When we kissed for the first time. When My lips felt your lips.
+
 };
 
 const vaultButtons =
